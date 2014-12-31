@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export HW_PREFIX=/home/mwolf/gitprojects/hw
+
+export PYTHONSTARTUP=$HW_PREFIX/startup_ipython.py
+export PYTHONPATH=$PYTHONPATH:$HW_PREFIX/..
+python
